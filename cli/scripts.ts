@@ -931,4 +931,4 @@ export const getAssociatedTokenAccount = async (ownerPubkey: PublicKey, mintPk: 
         ASSOCIATED_PROGRAM_ID,
     ))[0];
     return associatedTokenAccountPubkey;
-}
+};
